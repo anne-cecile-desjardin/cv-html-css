@@ -1,0 +1,84 @@
+/*implémenter une typo*/
+@font-face {
+	font-family: 'sandler';
+	src: url("sandler/Sandler\ Trial.otf") format("opentype");
+}
+
+
+/*assigner la même option à plusieur éléments*/
+body,h2,h3,p {
+margin: 0 0%
+}
+
+
+/*typo de base du html*/
+html {
+    font-family: monospace;
+}
+
+
+body {
+    background-image: url('images/bg.jpg');
+    background-size: cover; /* Redimensionne l'image pour couvrir tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: center; /* Centre l'image dans l'arrière-plan */
+    backdrop-filter: blur(2px); /* Flou pour la surimpression */
+    opacity: 50;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:0;
+}
+
+
+  h1{
+      font:38pt;
+      border-color: rgb(255, 0, 149);
+      text-align: center;
+      margin-block-end: 0%;
+      margin-block-start: 0%;
+      background-size:cover;
+      
+    }
+
+
+h2 {
+    font-family: monospace;
+    .conteneur-info 
+        width: 120px; /* Largeur du conteneur */
+        height: 200px; /* Hauteur du conteneur */
+        background-color:rgba(242, 242, 242, 0.7);opacity: 10;
+        margin: 10px; /* Marges extérieures autour du conteneur */
+        border: 5px solid #a8396356; /* Bordure du conteneur */
+        padding: 10px; /* Espacement intérieur du conteneur */
+        border-radius: 50px;
+        text-align: center;
+    
+        left: 400px;
+}
+
+
+/*padding : extérieur de la marge*/
+section {
+    padding: 10px;
+} 
+
+
+/*. et le nom définit <div class="Reconversion">*/
+.Reconversion {
+font-size: 15px;
+}
+
+
+#infos_persos{
+    background-color: bisque;
+}
+
+
+.Télécharger{
+    text-decoration: none;
+    color: black;
+}
+
+
+.email{
+    color: black;
+}

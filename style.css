@@ -1,0 +1,125 @@
+/*implémenter une typo*/
+@font-face {font-family: 'sandler';
+	src: url("sandler/Sandler\ Trial.otf") format("opentype");
+}
+
+nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+    float: left; /* effet flottant */
+    text-decoration: none; /* pas d'héritage avec effet souligné */
+    color: #ffffff; /* couleur du texte */
+    background: #000000; /* couleur de fond */
+    height: 36px; /* hauteur */
+    line-height: 33px; /* interligne */
+    padding: 0 10px; /* marges intérieur */
+    font-family: sans-serif; /* police d'écriture */
+    font-size: 13px; /* taille du texte */
+    transition: .5s; /* temps de transition lors du hover : une demi seconde */
+    }
+    nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+    background: #4b3cf4; /* couleur de fond */
+    }
+
+aside {
+        width: 40%;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+        float: right;
+        box-shadow: inset 5px 0 5px -5px #5e585f;
+        font-style: italic;
+        color: #13132b;
+      }
+
+/* Style pour la vidéo */
+#background-video {
+    width: 100%; /* Ajustez la largeur comme vous le souhaitez */
+    height: auto; /* Ajustez la hauteur comme vous le souhaitez */
+  }
+  
+  /* Style pour le conteneur du bouton */
+  .content {
+    text-align: center; /* Centre le contenu horizontalement */
+    margin-top: 20px; /* Ajoute de l'espace en haut du contenu */
+  }
+  
+  /* Style pour le bouton */
+  #btnVideo {
+    background-color: #131b22; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Marge intérieure du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    cursor: pointer; /* Curseur au survol du bouton */
+  }
+  
+  /* Style au survol du bouton (optionnel) */
+  #btnVideo:hover {
+    background-color: #4b3cf4; /* Couleur de fond au survol */
+  }
+    
+    
+/*assigner la même option à plusieur éléments*/
+body,h2,h3,p {
+    margin: 0 0%;
+}
+
+
+/*typo de base du html*/
+html {font-family: monospace;
+}
+
+
+body {background-image: url('images/Logo\ Bash.png');
+     background-size: cover; /* Redimensionne l'image pour couvrir tout l'arrière-plan */
+     background-repeat: no-repeat; /* Empêche la répétition de l'image */
+     background-position: center; /* Centre l'image dans l'arrière-plan */
+     backdrop-filter: blur(10px); /* Flou pour la surimpression */
+     opacity: 50;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin:0;
+}
+
+
+  h1{font-size:38pt;
+     text-align: center;
+     margin-block-end: 0%;
+     margin-block-start: 0%;
+     background-size:cover;
+      
+    }
+
+
+h2 {font-family: monospace;
+}
+
+.conteneur-objectif {
+        width: 500px; /* Largeur du conteneur */
+        height: 100px; /* Hauteur du conteneur */
+        background-color:rgba(242, 242, 242, 0.7); opacity: 10;
+        margin: 20px; /* Marges extérieures autour du conteneur */
+        border: 5px solid; /* Bordure du conteneur */
+        padding : 10px; /* Espacement intérieur du conteneur */
+        border-radius: 70px;
+        text-align: center;
+        position: relative; /* Utilisez la position relative pour déplacer l'élément par rapport à sa position d'origine */
+        left: 500px; 
+        
+        }
+    
+    .paragraphe-space {margin-top: 50px; }
+
+
+/*padding : extérieur de la marge*/
+section {padding: 10px;
+} 
+
+
+/*. et le nom définit <div class="Reconversion">*/
+.Reconversion {font-size: 15px;
+}
+
+#Telecharger{
+    text-decoration: none;
+    color: black;
+}
+
+.email{color: black;
+}
